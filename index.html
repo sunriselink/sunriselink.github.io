@@ -18,6 +18,7 @@
             html,
             body {
                 height: 100%;
+                margin: 0;
             }
 
             p {
@@ -29,17 +30,21 @@
                 height: 100%;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
-                align-items: center;
             }
 
             .title {
                 font-size: 30pt;
                 font-weight: bold;
+                margin-top: auto;
             }
 
             .subtitle {
                 font-size: 20pt;
+            }
+
+            .footer {
+                margin-top: auto;
+                margin-bottom: 32px;
             }
         </style>
     </head>
@@ -47,6 +52,7 @@
         <div class="center">
             <p class="title">Тут мог бы быть мой сайт</p>
             <p class="subtitle">Но его нет...</p>
+            <p class="footer">Хотя есть <a href="/har-viewer">HAR Viewer</a></p>
         </div>
     </body>
 </html>
